@@ -9,12 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatBadgeModule} from '@angular/material/badge';
+import { AbrahamComponent } from './abraham/abraham.component';
 
 //Fin de Agregar Modulos de Material Design
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AbrahamComponent
   ],
   imports: [
     BrowserModule,
