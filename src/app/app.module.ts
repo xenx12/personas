@@ -10,6 +10,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatBadgeModule} from '@angular/material/badge';
 import { AbrahamComponent } from './abraham/abraham.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatIconModule} from '@angular/material/icon';
+
 
 //Fin de Agregar Modulos de Material Design
 
@@ -23,7 +26,10 @@ import { AbrahamComponent } from './abraham/abraham.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatDatepickerModule,
+    MatIconModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

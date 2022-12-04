@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    
+}
+mat-icon{
+    float: left;
+}
+
+.caja {
+    position: relative;
+    left: 16.5%;
+}
+
+#fondo {
+    width: 800px;
+    height: 500px;
+    background-image: url('https://media.istockphoto.com/id/1264939463/es/v%C3%ADdeo/particles-azul-naranja-evento-juego-trailer-t%C3%ADtulos-cinem%C3%A1tica-concierto-escenario-fondo.jpg?b=1&s=640x640&k=20&c=lgVwl-x17xsYen8bIksEahmg8OgHQo7_i2YIZjn3GV0=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
